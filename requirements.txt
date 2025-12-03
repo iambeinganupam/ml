@@ -1,0 +1,38 @@
+# Core Dependencies for Exercise Performance Analysis
+# Install: pip install -r requirements.txt
+
+# Computer Vision & Deep Learning
+opencv-python==4.8.1.78
+numpy==1.26.4
+ultralytics==8.3.234
+
+# API Server (FastAPI)
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+pydantic==2.5.0
+
+# HTTP Client (for testing)
+requests==2.32.5
+
+# PyTorch & TorchVision (required by ultralytics)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Additional utilities
+pillow>=10.0.0
+matplotlib>=3.3.0
+pyyaml>=5.3.1
+scipy>=1.4.1
+psutil>=5.8.0
+
+# Optional: For model conversion (TensorFlow/ONNX)
+# tensorflow>=2.19.0,<=2.20.0
+# tf-keras==2.20.1
+# onnx>=1.14.0
+# onnx-graphsurgeon>=0.5.0
+# onnxsim>=0.4.0
+
+# Note: TensorFlow and ONNX tools are optional
+# They are only needed for model format conversion
+# The main application works without them
